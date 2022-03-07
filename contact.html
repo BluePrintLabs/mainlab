@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- boostrap cdn -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- inner css -->
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- fontawesome cdn -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="logo" class="logo">Blue Print Labs</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h2><u>CONTACT US</u></h2>
+    <div class="container about">
+        <div class="text">
+            <h3>About Blue Print Labs.</h3>
+            <p>"Our technology takes the best aspects of Open Source Technology and uses our clients business logic to arrive at proactive strategy. What does this meant to us here at Blue Print? It means our clients have a very simple relationship to manage. Our quotes are completely free and no matter the problem we can fit your in our pipeline. We will discuss your needs/budget and then address our different solutions. If one of our bluePrintTemplates do not fit your solution, we simply draw up a costum soltuion for you.</p>
+            <p2>Request a Quote: (636) 577-5226</p2>
+        </div>
+        <img src="images/contact.svg" alt="" class="image animate__animated aimate__slower animate__bounceInUp">
+    </div>
+
+    <div class="container board">
+        <div class="text">
+            <h3>Job Opportunities:</h3>
+            <p><b>Technology Development Paid Summer Internship:</b> 3 month paid internship. During this intership you will go through a 2 week training program that will help you understand our business and what we do. You will then work with a development employee in either the sales or technology sector. You will spend the last month with the upgrades team where you will learn to update and launch code. Interviews start March and end in May. The internship starts June 1st.</p>
+            <p>Requirements:</p>
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Excel or Access</li>
+                <li>Communication skills</li>
+                <li>Research and presentation skills</li>
+                <li>Coding fundamentals</li>
+            </ul>
+
+            <p><b>Part Time Developer:</b> Looking for a proactive programmer. Someone looking to grow in technology. Work on your own time, remote if needed. Please contact for pay rate.</p>
+            <p>Requirements:</p>
+            <ul>
+                <li>JavaScript or Python</li>
+                <li>HTML and CSS</li>
+                <li>Time Management</li>
+            </ul>
+
+            <p>Email resume to: <u>blueprintlabsconsulting@gmail.com</u></p>
+    </div>
+
+            <!-- google map location -->
+            <div class="google-map" data-aos="zoom-in">
+                <iframe src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=4320%20Forest%20Park%20Avenue+(Blue%20Print%20Labs)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" width="1920" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+            <!-- footer section -->
+            <section id="footer">
+                <div class="footer container">
+                    <div class="adress">
+                        <div class="site">
+                            <h4>Site links</h4>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                                <li><a href="#"><i class="fas fa-id-badge"></i> Contact Us</a></li>
+                                <li><a href="#"><i class="fas fa-eject"></i> About Us</a></li>
+                                <li><a href="#"><i class="fas fa-briefcase"></i> Policy</a></li>
+                                <li><a href="#"><i class="fas fa-copyright"></i> Copywrigh</a></li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <h4>Social Media</h4>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                                <li><a href="#"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h4>CONTACT US</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject:</label>
+                                <input type="text" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="start typing..." class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary form-control">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+</body>
+</html>

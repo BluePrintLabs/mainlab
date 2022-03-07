@@ -1,0 +1,207 @@
+.menu{
+    background-color: #7E57C2;
+    height: 100px;
+}
+
+/* menu section */
+
+
+nav{
+    font-family: monsterrat;
+    background-color: #0a043c;
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    margin: 0px 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background-color:#C53F3F;
+    transform: .5s;
+    padding : 7px 13px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+.check-btn{
+    color: white;
+    font-size: 35px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* home section */
+h2{
+    text-align: center;
+    color:#C53F3F;
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.about .text{
+    width: 50%;
+    margin-right: 10px;
+    word-spacing: 2px;
+}
+.about img{
+    width: 45%;
+}
+
+/* info section */
+.info{
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+/* footer section */
+
+#footer{
+    padding-top: 20px;
+    color: white;
+    height: 500px;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.adress{
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.site{
+    margin-right: 50px;
+}
+.site ul li, .social ul li{
+    list-style: none;
+    margin-left: -20px;
+}
+.contact{
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 40%;
+    border-left: 1px solid orangered;
+}
+.contact h4{
+    text-align: center;
+}
+.contact textarea{
+    height: 100px;
+}
+.footer ul li a{
+    color: white;
+}
+
+
+
+
+@media(max-width : 952px){
+    .about h3{
+        text-align: center;
+    }
+    .about{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+   .about .text{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+   .about .image{
+        width: 100%;
+        height: 200px;
+    }
+    #footer{
+        height: fit-content;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .adress{
+        justify-content: center;
+        align-items: center;
+    }
+    .adress, .contact{
+        width: 70%;
+    }
+    .contact{
+        border-left: none;
+        margin-bottom: 20px;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+   }
+   
+   @media (max-width : 858px){
+       .check-btn{
+           display: block;
+       }
+       nav ul{
+           position: fixed;
+           width: 100%;
+           height: 100vh;
+           background-color: #263e50;
+           left : -100%;
+           transition: all .5s;
+           text-align: center;
+           z-index: 2;
+       }
+       #check:checked ~ ul{
+           left: 0;
+       }
+       nav ul li{
+           display: block;
+       }
+       nav ul li a{
+           font-weight: 20px;
+       }
+       nav ul li a:hover, nav ul li a.active{
+           background-color: none;
+           columns: #0082e6;
+       }
+   }

@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    column-gap: 3px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 5.3px 10.6px 10.6px hsl(0deg 0% 0% / 0.34);
+
+}
+
+.grid-item {
+    background-color: White;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.roll {
+    background-color: #2196F3;
+    width:100%
+    border-radius 25px;
+}

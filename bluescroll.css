@@ -1,8 +1,9 @@
+
 .grid-container {
     display: grid;
     column-gap: 3px;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: #cccecf;
     padding: 10px;
     border-radius: 5px 5px 20px 20px;
     box-shadow: 5.3px 10.6px 10.6px hsl(0deg 0% 0% / 0.34);
@@ -18,7 +19,31 @@
 }
 
 .roll {
-    background-color: #2196F3;
+    background-color: #c7cacc;
     width:100%
     border-radius 25px;
 }
+
+
+
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    color: rgb(0, 0, 0);
+  }
+  
+  .success:hover {
+    background-color: #1aa8d3;
+    color: white;
+    box-shadow: 3px 5px #525555;
+  }
+
+

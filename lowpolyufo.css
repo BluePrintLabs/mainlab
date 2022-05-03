@@ -1,0 +1,288 @@
+body{
+    position: fixed;
+    background-color: #869DAF;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+  }
+  .ground{
+    position: absolute;
+    display: block;
+    background-color: #cac4ae;
+    width: 200px;
+    height: 200px;
+    transform: rotateZ(0deg);
+    z-index:-999;
+  }
+  .ground div:first-child{
+    position: absolute;
+    display: block;
+    background-color: #83a75f;
+    width: 70px;
+    height: 90px;
+    bottom: 0px;
+    right: 0px;
+    z-index:-998;
+  }
+  .ground div:nth-child(2){
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 60px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    z-index:-998;
+  }
+  .ground div:nth-child(3){
+    position: absolute;
+    display: block;
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 200px;
+    top: 5px;
+    right: -10px;
+    z-index:-998;
+    transform: skewY(45deg);
+  }
+  .ground div:nth-child(4){
+    position: absolute;
+    display: block;
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 10px;
+    top: 200px;
+    right: -5px;
+    z-index:-998;
+    transform: skewX(45deg);
+  }
+  .firstLine{
+    position: absolute;
+    display: block;
+    background-color: #5F759E;
+    width: 30px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: 85px;
+    left: 85px;
+    z-index:-998;
+  }
+ 
+  .secondLine{
+    position: absolute;
+    display: block;
+    background-color: #9E99B0;
+    width: 10px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: 65px;
+    left: 95px;
+    z-index:-998;
+  }  
+
+  .thirdLine{
+    position: absolute;
+    display: block;
+    background-color: #5F759E;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: 55px;
+    left: 92px;
+    z-index:-998;
+  }  
+
+  .fourthLine{
+    position: absolute;
+    display: block;
+    background-color: #9E99B0;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: 40px;
+    left: 92px;
+    z-index:-998;
+  }  
+
+  .fifthLine{
+    position: absolute;
+    display: block;
+    background-color: #5F759E;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: 25px;
+    left: 92px;
+    z-index:-998;
+  }  
+
+  .sixthLine{
+    position: absolute;
+    display: block;
+    background-color: #222E48;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top:10px;
+    left: 92px;
+    z-index:-998;
+  }  
+
+  .sevenLine{
+    position: absolute;
+    display: block;
+    background-color: #B1A7A8;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -5px;
+    left: 92px;
+    z-index:-998;
+  }  
+
+  .eightLine{
+    position: absolute;
+    display: block;
+    background-color: #BEBAB7;
+    width: 20px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -23px;
+    left: 90px;
+    z-index:-998;
+  }  
+
+  .nineLine{
+    position: absolute;
+    display: block;
+    background-color: #BDC5C7;
+    width: 30px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -48px;
+    left: 85px;
+    z-index:-998;
+  }  
+
+  .tenLine{
+    position: absolute;
+    display: block;
+    background-color: #BDC5C7;
+    width: 15px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -40px;
+    left: 92px;
+    z-index:-998;
+  }  
+ .elevenLine{
+    position: absolute;
+    display: block;
+    background-color: #B3C5CF;
+    width: 40px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -80px;
+    left: 80px;
+    z-index:-998;
+  }  
+
+ .sun{
+    position: absolute;
+    display: block;
+    background-color: #DAD7B8;
+    width: 15px;
+    height: 15px;
+    transform: rotateZ(90deg);
+    top: 88px;
+    left: 25px;
+    z-index:-998;
+    border-radius: 100px / 50px;
+  }  
+
+
+.saucer{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;   
+    position: absolute;
+    display: block;
+    background-color: grey;
+    width: 30px;
+    height: 15px;
+    transform: rotateZ(180deg);
+    top: 133px;
+    left: 95px;
+    z-index:-998;
+    border-radius: 100px / 50px;
+    background: #2e4747;
+    box-shadow: 2px 0px 0px 2px #333;
+  }  
+ .saucerglass{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+    position: absolute;
+    display: block;
+    background-color: lightblue;
+    width: 12px;
+    height: 12px;
+    transform: rotateZ(90deg);
+    top: 125px;
+    left: 105px;
+    z-index:-998;
+    border-radius: 100px / 50px;
+    box-shadow: 1px -1px 0px 0px #133;
+
+  }  
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+  /*****************************Mountains**********************************/
+
+.triangle1 {
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  top: 70px;
+  left: 140px;
+  border-bottom: 35px solid #B0B3B8;
+}
+.triangle2 {
+  position: absolute;
+  border-left: -10px solid transparent;
+  border-right: 20px solid transparent;
+  top: 70px;
+  left: 160px;
+  border-bottom: 35px solid #3A3B3C;
+}
+
+
+
+
+/*********************** highscraper ***************************/
+  /***************************************************************/
+  
+   
+  }
+
+ /************************************************************/
+  /************************************************************/
+  /************************************************************/
+
+
+  
+  
+  
+  
+
+ 
+  
+  

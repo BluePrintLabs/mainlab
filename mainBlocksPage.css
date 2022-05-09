@@ -1,59 +1,40 @@
----
----
-
-
 body {
-    margin: 0;
-    height: 100vh;
-      
-       display: grid;
-    grid-template-areas: "cell";
-    place-items: center;
-  }
-  
-  
-  body > * {
-    grid-area: cell;
-  }
-  
-  canvas {
-    display: block;
-  }
-  
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "cell";
+  place-items: center;
+}
 
+body > * {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cell;
+}
 
+canvas {
+  display: block;
+}
 
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+}
 
-  
+/* Green */
+.success {
+  color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-  .btn {
-    border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-  }
-  
-  /* Green */
-  .success {
-    color: rgb(0, 0, 0);
-  }
-  
-  .success:hover {
-    background-color: #1aa8d3;
-    color: white;
-    box-shadow: 3px 5px #525555;
-  }
+.success:hover {
+  background-color: #1aa8d3;
+  color: white;
+  -webkit-box-shadow: 3px 5px #525555;
+          box-shadow: 3px 5px #525555;
+}
+/*# sourceMappingURL=mainBlocksPage.css.map */

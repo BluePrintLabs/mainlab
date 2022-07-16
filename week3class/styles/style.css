@@ -1,0 +1,163 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #5f6663;
+}
+
+.active {
+  background-color: #5f6663;
+}
+
+
+
+
+
+
+
+.darkSeaGreen {
+	background-color: #8fbc8f;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.russianGreen {
+	background-color:#679267;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.hunterGreen {
+	background-color:#355E3B;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.darkJungleGreen {
+	background-color:#013220;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+
+.pastelPink {
+	background-color:#FFC0CB;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+.boxShadow {
+	  box-shadow: 10px 10px 5px grey;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.center2 {
+  position:relative;
+  left:10%;
+  top:10%;
+}
+
+.centerWithBorder {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+
+.whiteText {
+  color: white;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignUp {
+	text-align: up;
+}
+
+
+.triangle-topleft {
+      width: 0;
+      height: 0;
+      border-top: 100px solid red;
+      border-right: 100px solid transparent;
+    }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+  
+
+
+.sky {
+	background-image: linear-gradient(#0b5088, #083a63);
+	padding-top: 150px;
+	padding-bottom: 75px;
+}
+
+
+
+

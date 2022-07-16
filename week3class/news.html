@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body style="background-color:#DB7093;">
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="news.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+
+
+
+  <div class="animate__wobble"> <h1>Get Custom CupCakes from all around the world!</h2> <div>
+  <div> <h2> Prices based off location: </h2> <div>
+ 
+  
+
+
+
+
+<div class="pastelPink center">
+	<h1> Click here to check your location and get prices!</h1>
+	<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  try {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } catch {
+    x.innerHTML = err;
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+
+</script>
+
+<script>
+if (demo = Latitude: 38.5578401
+Longitude: -90.4031032) {
+  greeting = "Boo";
+}
+</script>
+
+</div>
+
+
+</div>

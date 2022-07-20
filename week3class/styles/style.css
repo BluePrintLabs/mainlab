@@ -99,6 +99,10 @@ li a:hover:not(.active) {
 	  box-shadow: 10px 10px 5px grey;
 }
 
+.boxShadow2 {
+	  box-shadow: 5px 5px 5px black;
+}
+
 .center {
   margin: auto;
   width: 50%;
@@ -150,6 +154,9 @@ li a:hover:not(.active) {
   background: red;
 }
   
+  
+.moveDown{margin-top:350px;}
+
 
 
 .sky {
@@ -160,4 +167,28 @@ li a:hover:not(.active) {
 
 
 
+.leftBlock{
+	width: 30%;
+	float:left;
+	border-style: outset;
+	padding: 20px;
+}
 
+.rightBlock{
+	width: 50%;
+	float:right;
+	padding: 20px;
+
+}
+
+.outsetBorder{
+	border-style: outset;
+}
+
+.addMargin{
+  padding-top:100px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

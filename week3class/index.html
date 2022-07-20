@@ -2,94 +2,46 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> News</title>
+  <title> Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="stylesheet" href="styles/style.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
-<body style="background-color:#DB7093;">
-<!–– This is a comment -->
+<body style="background-color:#96c8a2;">
 
 <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a class="active" href="news.html">News</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li><a href="about.html">About</a></li>
 </ul>
 
+  <h2>Article</h2>
 
-
-
-  <div class="animate__tada"> <h1 class="animate_animated animate_bounce">Get Custom CupCakes from all around the world!</h2> <div>
-  <div> <h2> Prices based off location: </h2> <div>
- 
-  
-
-
-
-
-<div class="pastelPink center boxShadow2">
-	<h1> Click here to check your location and get prices!</h1>
-	  <button onclick="getLocation()">Try It</button>
-    <button onclick="flavorOfTheMonth()">Flavor of the Month</button>
-
-<p id="demo"></p>
-<p id="demo2"></p>
-
-
-    <script>
-      const x = document.getElementById("demo");
-
-      function getLocation() {
-        try {
-          navigator.geolocation.getCurrentPosition(showPosition);
-        } catch {
-          x.innerHTML = err;
-        }
-      }
-
-      function showPosition(position) {
-        x.innerHTML = "Latitude: " + position.coords.latitude + 
-        "<br>Longitude: " + position.coords.longitude;
-        showHemisphere(position)
-      }
-
-      const y = document.getElementById("demo2");
-      //Y is a variable, getElementById is a method. A method of DOM that returns an element object. Demo2 is an ID.
-      
-        function showHemisphere(position) {
-          if (position.coords.latitude > 0) {
-            document.getElementById("demo2").textContent = "northernHemisphere $10 Shipping";
-        } else {
-          document.getElementById("demo2").textContent = "southernHemisphere $20 Shipping";
-        }
-      }
-        //between each . make sure you resolve it, resolve document. to be an object, then getElementByID is a method that returns an object
-        //.textContect is a property of the element object
-        //javaScript is just a lot of objects
-        //Methods end in ()
-        //Method is a function that belongs to an object: getEleemntById("demo2") is a method with an ID
-        //A method is when a particular noun does a particular verb.
-        //I ate a donut, I would be the object, eat would be the method, and donut would be the argument
-        //The Donut was eaten, donut would be the parameter, eating would be the verb
-        //innerHTML is out of date, it's technically WRONG
-    </script>
-
-
-    <script>
-      function flavorOfTheMonth() {
-        var cone = ["Vanilla Coated Cone", "Sugar Cone", "Waffle Cone"],
-          coneToUse = cone[Math.floor(Math.random() * cone.length)];
-        var topScoop = ["Chocolate", "Pistachio", "Vanilla", "Bubblegum", "MintChip"],
-          topScoopToUse = topScoop[Math.floor(Math.random() * topScoop.length)];
-        var bottomScoop = ["ButterBecan", "Birthday Cake", "Cookie Dough", "Rasberry", "Chocolate"],
-          bottomScoopToUse = bottomScoop[Math.floor(Math.random() * bottomScoop.length)];  
-        var toppings = ["chocolate syrup", "chocolate chips", "sprinkles"],
-          toppingsToUse = toppings[Math.floor(Math.random() * toppings.length)];      
-        alert(topScoopToUse + ' and ' + bottomScoopToUse + ' with ' + toppingsToUse + ' on a ' + coneToUse);
-        }
-    </script>
-
+<div class="container darkSeaGreen boxShadow">
+  <h1 class="center">Info</h1>
+  <p class="center">Random Paragraph inside a .container class.</p>
+  <p class="center">Another line of text.</p>
 </div>
+
+
+<div class="container russianGreen boxShadow">
+  <h1 class="center2">Header </h1>
+  <p class="center2">Random Paragraph inside a .container class.</p>
+  <p class="center2">Another line of text.</p>
 </div>
+
+<div class="container whiteText hunterGreen boxShadow alignLeft">
+  <h1>Header</h1>
+  <p>Random Paragraph inside a .container class.</p>
+  <p>Another line of text.</p>
+</div>
+
+<div class="container whiteText darkJungleGreen boxShadow alignRight">
+  <h1>Header</h1>
+  <p>Random Paragraph inside a .container class.</p>
+  <p>Another line of text.</p>
+</div>
+
+
+</body>
+</html> 

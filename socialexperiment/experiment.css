@@ -9,7 +9,16 @@
 
 }
 
+.hello2{
+    position: absolute;
+    z-index: 9;
+    width: 175px;
+    height: 25px;
+    top: 190px;
+    left: -61px;
+    transform: rotate(45deg);
 
+}
 
 body{
     position: fixed;

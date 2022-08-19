@@ -13,7 +13,9 @@
     <tr  class="bg-info">
         <th data-column="establishment" data-order="desc">establishment &#9650</th>
         <th data-column="bestPart" data-order="desc">bestPart &#9650</th>
-        <th data-column="birthdate" data-order="desc">Birthday &#9650</th>
+	<th data-column="category" data-order="desc">category &#9650</th>
+	<th data-column="priceRange" data-order="desc">priceRange &#9650</th>
+        <th data-column="city" data-order="desc">city &#9650</th>
 	<th data-column="state" data-order="desc">state &#9650</th>
 
     </tr>
@@ -25,7 +27,7 @@
 
 <script>
 	var myArray = [
-	    {'establishment':'SushiStation', 'bestPart':'Sushi', 'birthdate':'11/10/1989', 'state':'MO'},
+	    {'establishment':'SushiStation', 'bestPart':'Sushi', 'category':'Relaxed', 'priceRange':'4stars', 'city':'Kirkwood', 'state':'MO'},
 	    {'name':'Milans little italy', 'age':'Spaghetti', 'birthdate':'Missouri'},
 	    {'name':'CityDiner', 'age':'Special', 'birthdate':'10/14/1990'},
 	    {'name':'Texas Road House', 'age':'Rolls', 'birthdate':'11/29/1993'},
@@ -63,7 +65,9 @@
 			var row = `<tr>
 							<td>${data[i].establishment}</td>
 							<td>${data[i].bestPart}</td>
-							<td>${data[i].birthdate}</td>
+							<td>${data[i].category}</td>
+							<td>${data[i].priceRange}</td>
+							<td>${data[i].city}</td>
 							<td>${data[i].state}</td>
 					  </tr>`
 			table.innerHTML += row

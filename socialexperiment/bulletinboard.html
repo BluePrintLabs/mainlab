@@ -12,7 +12,7 @@
 <table class="table table-striped">
     <tr  class="bg-info">
         <th data-column="establishment" data-order="desc">establishment &#9650</th>
-        <th data-column="age" data-order="desc">Age &#9650</th>
+        <th data-column="bestPart" data-order="desc">bestPart &#9650</th>
         <th data-column="birthdate" data-order="desc">Birthday &#9650</th>
     </tr>
 
@@ -23,7 +23,7 @@
 
 <script>
 	var myArray = [
-	    {'establishment':'SushiStation', 'age':'Sushi', 'birthdate':'11/10/1989'},
+	    {'establishment':'SushiStation', 'bestPart':'Sushi', 'birthdate':'11/10/1989'},
 	    {'name':'Milans little italy', 'age':'Spaghetti', 'birthdate':'Missouri'},
 	    {'name':'CityDiner', 'age':'Special', 'birthdate':'10/14/1990'},
 	    {'name':'Texas Road House', 'age':'Rolls', 'birthdate':'11/29/1993'},
@@ -60,7 +60,7 @@
 		for (var i = 0; i < data.length; i++){
 			var row = `<tr>
 							<td>${data[i].establishment}</td>
-							<td>${data[i].age}</td>
+							<td>${data[i].bestPart}</td>
 							<td>${data[i].birthdate}</td>
 					  </tr>`
 			table.innerHTML += row

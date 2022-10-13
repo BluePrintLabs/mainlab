@@ -23,6 +23,12 @@
     padding-left: 80px;
 }
 
+
+.blueTxt {
+  color: blue;
+}
+
+
 /* GLOBAL STYLES */
 body {
     background: #333;

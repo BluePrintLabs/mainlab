@@ -2,7 +2,7 @@ body{
     padding-top: 50px;
 }
 h3{
-    color : #034C3C; 
+    color : #ff781f; 
 }
 .span{
     width: fit-content;
@@ -64,7 +64,7 @@ h3{
 }
 button{
     width: 100%;
-    background-color: #034C3C;
+    background-color: #ff781f;
     color : white;
     border: none;
     padding: 5px 5px;

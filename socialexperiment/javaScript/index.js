@@ -1,6 +1,6 @@
 callWs = function(){
 	// The Endpoint URL
-	let url = 'https://blueprintlabs.info/socialexperiment/javaScript/quote.json';
+	let url = 'https://htmlpreview.github.io/?https://github.com/BluePrintLabs/mainlab/blob/main/socialexperiment/javaScript/quote.json';
 	fetch(url)
   .then(function(response) {
   	// Render the Response Status

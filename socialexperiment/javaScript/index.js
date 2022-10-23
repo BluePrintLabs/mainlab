@@ -1,4 +1,10 @@
 callWs = function(){
+	
+	/* let day = Date.now();
+	day /= 86400;
+	day = Math.ceil(day);
+	*/
+	
 	// The Endpoint URL
 	let url = 'https://htmlpreview.github.io/?https://github.com/BluePrintLabs/mainlab/blob/main/socialexperiment/javaScript/quote.json';
 	fetch(url)

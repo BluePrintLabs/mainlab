@@ -1,6 +1,6 @@
 callWs = function(){
 	// The Endpoint URL
-	let url = 'https://jsonplaceholder.typicode.com/posts/1';
+	let url = '/quote.json';
 	fetch(url)
   .then(function(response) {
   	// Render the Response Status
